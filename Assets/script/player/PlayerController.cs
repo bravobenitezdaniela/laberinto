@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
         float moveX = Input. GetAxisRaw ("Horizontal"); // pille el movimiento de manera horizontal y los vincule solo a las teclas de este , es decir flechas laterales y a d 
         float moveZ = Input. GetAxisRaw ("Vertical"); //lo mismo pero con las flechas ariba abajo y ws
         moveInput = new Vector3 (moveX, 0 , moveZ); // le asignamos los movimientos a los parámetros // salto
-        if(Input.GetKey ("space")) // cuando apretas el espacio y la velocidad en y es cero , añadimos fuerza y nos hace saltar
+        if(Input.GetKey ("space") ) // cuando apretas el espacio y la velocidad en y es cero , añadimos fuerza y nos hace saltar
         {
             playerb.AddForce (transform.up* speedJump);
             Debug.Log("Salto lol");//para la consola

@@ -26,8 +26,8 @@ public class spritecontroller : MonoBehaviour
     }
     return null;
         }
-    playSprite = Load ("play_pausa", "Play");
-pauseSprite = Load ("play_pausa", "Pausa" );
+    playSprite = Load ("play-pausa", "play");
+pauseSprite = Load ("play-pausa", "pausa" );
 //nombre de la variable = carga (nombre de la imagen, nombre del sector, es decir, sprite)
 
 }
